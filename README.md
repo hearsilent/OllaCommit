@@ -22,7 +22,6 @@ OllaCommit/
 ├── LICENSE
 └── scripts/
     └── commit_gen.sh    # The core logic (Python embedded in Zsh)
-
 ```
 
 ---
@@ -33,7 +32,6 @@ OllaCommit/
 2. **Model**: Pull the lightweight Qwen model:
 ```bash
 ollama pull qwen2.5:0.5b
-
 ```
 
 
@@ -51,7 +49,6 @@ Clone this project to a stable location on your Mac:
 git clone https://github.com/hearsilent/OllaCommit.git
 cd OllaCommit
 chmod +x scripts/commit_gen.sh
-
 ```
 
 #### 2. Create macOS Quick Action
@@ -75,7 +72,6 @@ If you cloned the repo, paste this bridge command (replace the path with your ac
 
 ```zsh
 zsh "$HOME/path/to/OllaCommit/scripts/commit_gen.sh" "$1"
-
 ```
 
 ##### Option B: Paste the full script directly (Quickest setup)
